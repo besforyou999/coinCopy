@@ -43,7 +43,7 @@ namespace CoinCopy
             this.priceChart.ChartAreas.Add(chartArea1);
             legend1.Name = "Legend1";
             this.priceChart.Legends.Add(legend1);
-            this.priceChart.Location = new System.Drawing.Point(12, 106);
+            this.priceChart.Location = new System.Drawing.Point(12, 86);
             this.priceChart.Name = "priceChart";
             series1.ChartArea = "ChartArea1";
             series1.Legend = "Legend1";
