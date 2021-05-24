@@ -55,6 +55,7 @@ namespace CoinCopy
             this.btnSearch.TabIndex = 1;
             this.btnSearch.Text = "검색";
             this.btnSearch.UseVisualStyleBackColor = true;
+            this.btnSearch.Click += new System.EventHandler(this.btnSearch_Click);
             // 
             // dgvCoin
             // 
@@ -86,7 +87,7 @@ namespace CoinCopy
             // 정보ToolStripMenuItem
             // 
             this.정보ToolStripMenuItem.Name = "정보ToolStripMenuItem";
-            this.정보ToolStripMenuItem.Size = new System.Drawing.Size(210, 24);
+            this.정보ToolStripMenuItem.Size = new System.Drawing.Size(108, 24);
             this.정보ToolStripMenuItem.Text = "정보";
             this.정보ToolStripMenuItem.Click += new System.EventHandler(this.정보ToolStripMenuItem_Click);
             // 
